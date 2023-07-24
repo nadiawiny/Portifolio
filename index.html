@@ -10,55 +10,54 @@
 
 <body>
     <!--Cabeçalho - navegação-->
-    <section>
+    <section class="menu">
         <header>
-            <h3 class="menu-titulo">Nádia Winy</h3>
+            <h3 class="menu_titulo">Nádia Winy</h3>
         </header>
         <nav>
             <!--menu-de-navegação-->
-            <ul>
-                <li><a href="#sobremim">Sobre mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#formacao">Formações e Cursos</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato nadiawiny@hotmail.com</a></li>
+            <ul class="menu_list">
+                <li class="menu_list_item"><a href="#sobremim">Sobre mim</a></li>
+                <li class="menu_list_item"><a href="#skills">Skills</a></li>
+                <li class="menu_list_item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu_list_item"><a href="#formacao">Formações</a></li>
+                <li class="menu_list_item"><a href="#projetos">Projetos</a></li>
+                <li class="menu_list_item"><a href="#contato">Contato nadiawiny@hotmail.com</a></li>
             </ul>
         </nav>
     </section>
 
 
     <main>
-        <section>
+        <section class="titulo">
             <img class="img-foto" src="/src/img/foto.jpg" alt="">
-            <div class="" id="sobremim">
-                <h2>Olá, meu nome é Nádia Winy <br> e sou desenvolvedor Front-end</h2>
-                <p>Eu sou estudante de Tecnólogo em análise e desenvolvimento de sistemas <br>
+            <div class="titulo-contener" id="sobremim">
+                <h2 class="titulo-bio">Olá, meu nome é Nádia Winy <br> e sou desenvolvedor Front-end</h2>
+                <p class="titulo_eu">Eu sou estudante de Tecnólogo em análise e desenvolvimento de sistemas <br>
                     e atualmente estou participando no projto Oracle ONE na Alura
                 </p>
-                <ul>
-                    <li><a href="https://github.com/nadiawiny">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/n%C3%A1dia-winy-57710997">Linkedin</a></li>
-                    <li><a href="https://www.instagram.com/nadiawiny/">Instagram</a></li>
-                    <li><a href="">Curriculo</a></li>
+                <ul class="titulo_redes">
+                    <li class="titulo-redes-item"><a href="https://github.com/nadiawiny" target="_blank" rel="external">Github</a></li>
+                    <li class="titulo-redes-item"><a href="https://www.linkedin.com/in/n%C3%A1dia-winy-57710997" target="_blank" rel="external">Linkedin</a></li>
+                    <li class="titulo-redes-item"><a href="https://www.instagram.com/nadiawiny/" target="_blank" rel="external">Instagram</a></li>
+                    <li class="titulo-redes-item"><a href="/src/Curriculo.pdf" target="_blank" type="application/pdf">Currículo</a></li>
                 </ul>
             </div>
 
         </section>
 
-        <section>
-            <div>
-                <h2>Sobre mim</h2>
-                <p>
-                    ghjklçscovmdovndbnoflç
-                    fojggiheokeprmmvfsjdiehfig
-                    kdjfoksp3irkdls,ldgtnh efienc
+        <section class="about">
+            <div class="about-contener">
+                <h2 class="about-titulo">Sobre mim</h2>
+                <p class="about-paragrafo">
+                    Aos 23 anos, sou uma pessoa dedicada, estudiosa, focada e detalhista, 
+                    apaixonada pelo vasto mundo da tecnologia.
                 </p>
             </div>
         </section>
 
-        <section>
-            <h2 class="" id="skills">Skills</h2>
+        <section class="skills">
+            <h2 class="skills-titulo" id="skills">Skills</h2>
             <div>
                 <img alt="HTML" height="30" width="40"
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -79,32 +78,33 @@
             </div>
         </section>
 
-        <section class="" id="hobbies">
+        <section class="hobbies" id="hobbies">
             <div>
-                <h2>Hobbies</h2>
+                <h2 class="hobbies-titulo">Hobbies</h2>
 
             </div>
         </section>
 
-        <section id="formacao">
+        <section class="formacao" id="formacao">
             <div>
-                <h2>Formação</h2>
+                <h2 class="formacao-titulo">Formação</h2>
 
             </div>
         </section>
 
-        <section id="projetos">
+        <section class="" id="projetos">
             <div>
-                <h2>Projetos</h2>
+                <h2 class="project-titulo">Projetos</h2>
 
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2 id="contato">Contatos</h2>
+        <section class="contato">
+            <div class="contato-contener">
+                <h2 class="contato-titulo" id="contato">Contatos</h2>
                 <p>Quer entrar em contato comigo? <br>
-                    Preencha o formulário ao lado e entrarei em contato o mais rápido posspivel.</p>
+                    Preencha o formulário ao lado e entrarei em contato o mais rápido posspivel.
+                </p>
                 <form action="">
                     <label for="name"></label>
                     <input type="text" id="nome" class="input-padrao" required placeholder="nome">
